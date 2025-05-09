@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/locationSearchFragment">
+
+    <fragment
+        android:id="@+id/locationSearchFragment"
+        android:name="com.example.lab4_20191802.WeatherSearchFragment"
+        android:label="Búsqueda por Locación" />
+
+    <fragment
+        android:id="@+id/weatherForecastFragment"
+        android:name="com.example.lab4_20191802.WeatherForecastFragment"
+        android:label="Pronóstico de Clima" />
+
+    <fragment
+        android:id="@+id/sportsFragment"
+        android:name="com.example.lab4_20191802.SportsFragment"
+        android:label="Deportes" />
+</navigation>
